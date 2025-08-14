@@ -58,80 +58,80 @@
         //     fullscreen: true
         // });
 		
-        // owlCarousel HERO slider
-        $(".hero-slider").owlCarousel({
-            autoPlay: true,
-            navigation: true,
-            navigationText: ["<img src='img/hero-slider-arrow-left.png'>", "<img src='img/hero-slider-arrow-right.png'>"],
-            pagination: true,
-            slideSpeed: 300,
-            paginationSpeed: 400,
-            singleItem: true,
-            items: 1,
-            autoHeight: true,
-            addClassActive: true,
-            beforeMove: function() {
-                // slide BEFORE (hide captions) 
-            },
-            afterMove: function() {
-                // slide AFTER (show captions)   
-            }
-        });
+        // // owlCarousel HERO slider
+        // $(".hero-slider").owlCarousel({
+        //     autoPlay: true,
+        //     navigation: true,
+        //     navigationText: ["<img src='img/hero-slider-arrow-left.png'>", "<img src='img/hero-slider-arrow-right.png'>"],
+        //     pagination: true,
+        //     slideSpeed: 300,
+        //     paginationSpeed: 400,
+        //     singleItem: true,
+        //     items: 1,
+        //     autoHeight: true,
+        //     addClassActive: true,
+        //     beforeMove: function() {
+        //         // slide BEFORE (hide captions) 
+        //     },
+        //     afterMove: function() {
+        //         // slide AFTER (show captions)   
+        //     }
+        // });
 		
-        // owlCarousel HERO slider ZOOM
-        $(".hero-slider-zoom").owlCarousel({
-            autoPlay: true,
-            navigation: true,
-            navigationText: ["<img src='img/hero-slider-arrow-left.png'>", "<img src='img/hero-slider-arrow-right.png'>"],
-            pagination: true,
-            transitionStyle: "fadeUp", // fade, backSlide, goDown, fadeUp
-            slideSpeed: 300,
-            paginationSpeed: 400,
-            singleItem: true,
-            items: 1,
-            autoHeight: true,
-            addClassActive: true,
-            beforeMove: function() {
-                // slide BEFORE (hide captions) 
-            },
-            afterMove: function() {
-                // slide AFTER (show captions)   
-            }
-        });
+        // // owlCarousel HERO slider ZOOM
+        // $(".hero-slider-zoom").owlCarousel({
+        //     autoPlay: true,
+        //     navigation: true,
+        //     navigationText: ["<img src='img/hero-slider-arrow-left.png'>", "<img src='img/hero-slider-arrow-right.png'>"],
+        //     pagination: true,
+        //     transitionStyle: "fadeUp", // fade, backSlide, goDown, fadeUp
+        //     slideSpeed: 300,
+        //     paginationSpeed: 400,
+        //     singleItem: true,
+        //     items: 1,
+        //     autoHeight: true,
+        //     addClassActive: true,
+        //     beforeMove: function() {
+        //         // slide BEFORE (hide captions) 
+        //     },
+        //     afterMove: function() {
+        //         // slide AFTER (show captions)   
+        //     }
+        // });
 		
-        // owlCarousel HERO slider SPLIT
-        $(".hero-slider-split").owlCarousel({
-            autoPlay: true,
-            navigation: false,
-            pagination: false,
-            slideSpeed: 300,
-            paginationSpeed: 800,
-            singleItem: false,
-            items: 2,
-            autoHeight: true
-        });
+        // // owlCarousel HERO slider SPLIT
+        // $(".hero-slider-split").owlCarousel({
+        //     autoPlay: true,
+        //     navigation: false,
+        //     pagination: false,
+        //     slideSpeed: 300,
+        //     paginationSpeed: 800,
+        //     singleItem: false,
+        //     items: 2,
+        //     autoHeight: true
+        // });
 		
-        // owlCarousel TEAM slider
-        $("#team-carousel").owlCarousel({
-            items: 3,
-            autoPlay: false,
-            stopOnHover: true,
-            slideSpeed: 500,
-            itemsDesktopSmall: [1200, 2],
-            itemsTablet: [740, 2],
-            itemsMobile: [520, 1]
-        });
+        // // owlCarousel TEAM slider
+        // $("#team-carousel").owlCarousel({
+        //     items: 3,
+        //     autoPlay: false,
+        //     stopOnHover: true,
+        //     slideSpeed: 500,
+        //     itemsDesktopSmall: [1200, 2],
+        //     itemsTablet: [740, 2],
+        //     itemsMobile: [520, 1]
+        // });
 		
-        // owlCarousel testimonials
-        $("#testimonials").owlCarousel({
-            navigation: false,
-            pagination: true,
-            transitionStyle: "backSlide", // fade, backSlide, goDown, fadeUp
-            slideSpeed: 500,
-            paginationSpeed: 500,
-            singleItem: true,
-            autoPlay: 7000
-        });
+        // // owlCarousel testimonials
+        // $("#testimonials").owlCarousel({
+        //     navigation: false,
+        //     pagination: true,
+        //     transitionStyle: "backSlide", // fade, backSlide, goDown, fadeUp
+        //     slideSpeed: 500,
+        //     paginationSpeed: 500,
+        //     singleItem: true,
+        //     autoPlay: 7000
+        // });
 		
         // countdown modal
         $(".countdown-icon, .countdown-closer").on("click", function(e) {
@@ -306,3 +306,4 @@
 
 
 })(jQuery);
+
