@@ -210,24 +210,24 @@
             return !1;
         });
 		
-        // magnificPopup VIDEO
-        $('.popup-video').magnificPopup({
-            disableOn: 700,
-            type: 'iframe',
-            mainClass: 'mfp-fade',
-            removalDelay: 160,
-            preloader: false,
-            fixedContentPos: false
-        });
+        // // magnificPopup VIDEO
+        // $('.popup-video').magnificPopup({
+        //     disableOn: 700,
+        //     type: 'iframe',
+        //     mainClass: 'mfp-fade',
+        //     removalDelay: 160,
+        //     preloader: false,
+        //     fixedContentPos: false
+        // });
 		
-        // Vimeofy
-        $('#videoContainment-vimeo').vimeofy({
-            'url': 'https://vimeo.com/105001064', // Vimeo VIDEO URL
-            'color': '#00D8D8',
-            'autoplay': true,
-            'loop': true,
-            'delay': 5000
-        });
+        // // Vimeofy
+        // $('#videoContainment-vimeo').vimeofy({
+        //     'url': 'https://vimeo.com/105001064', // Vimeo VIDEO URL
+        //     'color': '#00D8D8',
+        //     'autoplay': true,
+        //     'loop': true,
+        //     'delay': 5000
+        // });
 		
         // countdown setup start
         $("#countdown").countdown({
@@ -306,4 +306,5 @@
 
 
 })(jQuery);
+
 
