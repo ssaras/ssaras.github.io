@@ -230,12 +230,12 @@
         // });
 		
         // countdown setup start
-        $("#countdown").countdown({
-            date: "22 April 2017 12:00:00", // countdown target date settings
-            format: "on"
-        }, function() {
-            // callback function
-        });
+        // $("#countdown").countdown({
+        //     date: "22 April 2017 12:00:00", // countdown target date settings
+        //     format: "on"
+        // }, function() {
+        //     // callback function
+        // });
 		
         // menu MONARCH
         $(".mobile-nav").on("click", function(n) {
@@ -306,5 +306,6 @@
 
 
 })(jQuery);
+
 
 
