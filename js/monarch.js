@@ -257,6 +257,10 @@
                 ".dropdown").addClass("active"))) : ($("body").removeClass("active-menu"), $(".menu-overlay").fadeOut(500));
 		}), $('html').on("click", function() {
             $(".dropdown").removeClass("active");
+        }), $("#menu").affix({
+            offset: {
+                top: 70
+            }
         });
 	
     });
