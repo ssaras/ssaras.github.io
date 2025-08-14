@@ -1,0 +1,60 @@
+@media screen and (max-width: 1400px) {
+    .main-menu {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .lower-page-works-intro {
+        padding: 0px 20px 0px 20px;
+    }
+    .sections {
+        padding: 100px 0px 0px 0px;
+    }
+    .lower-page-works {
+        height: 82%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .lower-page-works {
+        height: 75%;
+        min-height: initial;
+    }
+}
+@media screen and (max-width: 970px) {
+    .nav-container {
+        width: 40%;
+    }
+    .button-enter-site {
+        left: 38%;
+    }
+}
+@media screen and (max-width: 715px) {
+    .button-enter-site {
+        left: 35%;
+    }
+}
+@media screen and (max-width: 650px) {
+    h2.section-title {
+        padding: 0 0 0 35px;
+    }
+    h5.dosis {
+        padding: 0 0 1px 37px;
+    }
+    .quote {
+        padding: 13px 0 0 36px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .button-enter-site {
+        left: 28%;
+    }
+}
+@media screen and (max-width: 385px) {
+    .button-enter-site {
+        left: 28%;
+    }
+}
