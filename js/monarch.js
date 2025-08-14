@@ -54,9 +54,9 @@
     $(document).ready(function() {
 		
         // kenburnsy
-        $("#kenburnsy-bg").kenburnsy({
-            fullscreen: true
-        });
+        // $("#kenburnsy-bg").kenburnsy({
+        //     fullscreen: true
+        // });
 		
         // owlCarousel HERO slider
         $(".hero-slider").owlCarousel({
@@ -302,6 +302,7 @@
         }
     };
     // MOBILE DETECT end
+
 
 
 })(jQuery);
